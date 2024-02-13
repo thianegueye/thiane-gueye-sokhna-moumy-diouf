@@ -1,0 +1,325 @@
+/* GENERAL */
+.acceuil {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+    --couleurjaune: rgb(199, 151, 19)
+}
+.acceuil.img {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* HEADER */
+header {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    background-color: pink;
+    height: 120px;
+}
+section {
+display: flex;
+}
+header img {
+    width: 110%;
+    margin-bottom: 10px;
+    height: 110px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+header h3 i {
+    color: var(--couleurjaune);
+}
+header h3 {
+    margin-left: 200px;
+}
+.mot{
+margin: 250px;
+color: rgb(233, 32, 136);
+position: absolute;
+}
+/* acceuil */
+.acceuil1 .para {
+    margin-top: 50px;
+}
+.acceuil img {
+    width: 156%;
+    height: 650px;
+}
+.ACC h1 {
+    color: rgb(244, 149, 6);
+}
+.ACC h2 {
+    color: rgb(244, 149, 6);
+}
+.ACC h5 {
+    color: rgb(244, 149, 6);
+}
+.acceuil .fleches {
+    color: var(--couleurjaune);
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    cursor: pointer;
+}
+/* MENU */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    top: 130px;
+    position: absolute;
+    width: 100%;
+}
+nav ul li {
+    background-color: rgba(112, 112, 112, 0.8);
+    margin: 0 20px;
+    min-width: 120px;
+    height: 45px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+nav ul li:hover {
+    background-color: rgb(243, 240, 236)
+}
+nav ul li:first-child {
+    background-color: var(--couleurjaune);
+}
+/* maquillage */
+.maquillage.un {
+    display: block;
+}
+.maquillage.un h2 {
+    color: pink;
+}
+.maquillage h1{
+    color: gray
+}
+.maquillage h3{
+    color:deeppink
+}
+.omb1{
+    box-shadow: 10px 10px 10px 10px deeppink;   
+}
+.maquillage img {
+    width: 24%;
+    height: 500PX;
+    border-radius: 100px;
+}
+.maquillage.deux {
+    display: flex;
+}
+.omb2{
+    box-shadow: 10px 10px 10px 10px rgb(234, 61, 164);
+}
+.maquillage .deux img {
+    width: 24%;
+    height: 500PX;
+    border-radius: 40px;
+    border-color: deeppink;
+}
+.arg{
+    background-color:rgb(225, 80, 174);
+    border-radius:0px 100px;
+    width: 30%;
+    height: 100px ;
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.maquillage.trois {
+    display: block;
+}
+.maquillage .trois img {
+    width: 25%;
+    height: 500PX;
+    border-radius: 40;
+    border-color: deeppink;
+    border: 5px;
+}
+.omb3{
+    box-shadow: 10px 10px 10px 10px rgb(252, 63, 167)
+}
+button {
+    right: 2000px;
+}
+/* comente */
+.comente {
+    display: flex
+}
+h2 {
+    color: deeppink
+}
+.comentair {
+    margin-left: 200px;
+    top: 200px;
+}
+/* P */
+.title{
+background-color: deeppink; 
+color: rgb(219, 217, 230);
+font-family: Georgia, 'Times New Roman', Times, serif;
+width: 70%;
+height: 250px;
+border-radius: 0px 100px 0px 100px;
+}
+.pro{
+    background-color: rgb(219, 217, 230); 
+    color:deeppink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 70%;
+    height: 250px;
+    margin-left: 400px;
+    border-radius:0px 100px 0px 100px;
+    }
+.box{
+    display: flex;
+    margin-top: 15px;
+}
+.p{
+ display: flex;
+ background-color:lightgray;
+max-height: 750px;
+width: 100%;
+}
+ .p img{
+    width: 30%;
+    max-height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+/* coif1 */
+.outil{
+    display: flex;
+height: 200px;
+width: 100%;
+background-color: black;
+}
+.outil img{
+   height: 160px;
+    width: 30%; 
+    margin: 20px;
+   border-radius: 40px;
+   box-shadow: 10px 10px 10px 10px rgb(226, 131, 210);
+}
+.titl{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mode{
+    display: flex;
+    width: 100%;
+} 
+.coif1 p{
+    background-color:  #0d339d;
+    margin-top: 100px;
+    border-radius: 0px 40px;
+    width: 20%;
+    height: 200px;
+}
+.mode img{
+    box-shadow: 10px 10px 10px 10px #0d339d;
+    width: 70%;
+    margin: 15PX;
+    border-radius: 20PX;
+}
+/* coif2 */
+.mode2{
+    display: flex;   
+} 
+.mode2 img{
+    box-shadow: 10px 10px 10px 10px rgb(237, 23, 105);
+    width: 60%;
+    margin: 10PX;
+    border-radius: 20PX;
+}
+.mode2 p{
+    background-color: rgb(237, 23, 105); 
+    margin-top: 100px;
+    border-radius: 0px 40px;
+    width: 20%;
+    height: 200px; 
+}
+/* coif3 */
+.mode3{
+    display: flex;  
+} 
+.mode3 img{
+    box-shadow: 10px 10px 10px 10px rgb(219, 61, 13);
+    width: 90%;
+    margin: 10PX;
+    border-radius: 20PX;
+}
+.mode3 p{
+    background-color: rgb(219, 61, 13);
+    margin-top: 100px;
+    border-radius: 0px 40px;
+    width: 20%;
+    height: 200px;
+}
+/* coif4 */
+.mode4{
+    display: flex;  
+} 
+.mode4 img{
+    box-shadow: 10px 10px 10px 10px rgb(19, 18, 17);
+    width: 90%;
+    margin: 10PX;
+    border-radius: 20PX;
+}
+.mode4 p{
+    background-color: rgb(17, 16, 16);
+    margin-top: 100px;
+    border-radius: 0px 40px;
+    width: 30%;
+    height: 200px;
+    color: azure;
+}
+/* debut */
+.debu{
+    display: flex;
+}
+.debu{
+    background-color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.debu2 {
+    background-color: rgb(27, 25, 24);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 0px;
+    color: burlywood;
+    margin-left: 20px;
+}
+/* ped */
+.pedicures{
+    display: flex;
+}
+.pedicures img{
+ border-radius: 70px 0px;
+ margin: 40px;
+ box-shadow:10px 10px 10px 10px rgb(252, 154, 25);
+}
+.man{
+background-color:rgb(197, 204, 208);  
+    display: flex;
+    }
+.man img{
+    border-radius: 70px 0px;
+    margin: 40px;
+    width: 85%;
+    box-shadow:10px 10px 10px 10px rgb(88, 195, 253);
+   }
+   .text h1{
+    background-color:rgb(197, 204, 208); 
+    width: 60%;
+    height: 300px;
+    border-radius: 0px 70px;
+   }
+.ongle{
+    display: flex
+}
+.ongle img{
+    margin: 30px;
+    width: 24%;
+    box-shadow: 10px 10px 10px 10px rgb(188, 42, 154);
+}
+
